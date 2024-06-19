@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.user-login-banner{
+  background: url("../public/assets/images/bg/page-banner.jpg");
+  height: 150px !important;
+}
+.footer-bg{
+  background-image: url("../public/assets/images/bg/footer-bg.jpg");
+}
+.header-bg{
+  background: url("../public/assets/images/hero-bg3.jpg");
+}
+.service-bg{
+  background: url("../public/assets/images/bg/service-bg3.jpg");
+}
+.choose-us-bg{
+  background: url("../public/assets/images/bg/choose-us-bg.jpg");
+}
+.case-study-bg{
+  background: url("../public/assets/images/bg/case-study-bg.jpg");
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #0056b3;
+}
